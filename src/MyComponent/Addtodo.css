@@ -1,0 +1,115 @@
+
+.form-main-container {
+    display: block;
+    padding: 3rem;
+    padding-top: 5rem;
+    background-color: #E6FFFD;
+  
+}
+.form-container {
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0.2, 0.2, 0.24);
+    padding: 1rem;
+    border-radius: 10px;
+}
+.form-container h2, label{
+    color: #0A6EBD;
+    font-size: x-large;
+}
+.main-container{
+    background-color: #E6FFFD;
+}
+.main-container h2{
+    color: #0A6EBD;
+    padding-bottom: 2rem;
+}
+.main-container p{
+    color: #00337C;
+}
+
+.container{
+    padding: 2rem;
+}
+.todoitem-container {
+    box-shadow: 0 2px 4px rgba(0.2, 0.2, 0.2, 0.4); /* Example box shadow values */
+    padding: 1rem;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+  }
+  .todoitem-container h4 {
+    color: #0A6EBD;
+  }
+.todoitem-container:hover{
+    border-radius: 20px;
+    border: solid #146C94 0.1rem;
+    transform: scale(1.1);
+}
+
+.about-container{
+    background-color:#E6FFFD ;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 2rem;
+    padding-right:2rem;
+    height: 100%;
+}
+.about-container p{
+    width: 60rem;
+    font-size: larger;
+    color: #00337C;
+}
+.about-container h2{
+    color: #0A6EBD;
+}
+.btn-primary{
+    background-color:transparent;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); 
+    border: #146C94 solid 0.1rem;
+    color: #146C94;
+    
+}
+
+.btn-primary:hover{
+    background-color:#146C94;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); 
+    border: none;
+}
+
+.text-light {
+    background-color: #0A6EBD;
+}
+.navbar {
+    background-color: #0A6EBD;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+  
+}
+.nav-link {
+  color: white;
+  padding:5px;
+
+}
+.nav-link:hover {
+  color: white;
+  border: 0.1px solid white;
+  border-radius: 10px;
+}
+.nav-link:active {
+  color: white;
+  border: 0.1px solid white;
+  border-radius: 10px;
+}
+.delete{
+    background-color: transparent;
+    color: #00337C;
+    border: #00337C solid 0.1px;
+    border-radius: 5px;
+}
+.delete:hover{
+    background-color: red;
+    color: white;
+    border: #000000 solid 0.1px;
+    border-radius: 5px;
+}
